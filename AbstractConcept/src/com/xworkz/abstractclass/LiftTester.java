@@ -1,6 +1,6 @@
 package com.xworkz.abstractclass;
 
-public class Tester {
+public class LiftTester {
 
 	public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class Tester {
 		lift.stopTheLift();
 		lift.pressAlarm();
 		
-		Lift lift1 = new XLift();
+		Lift lift1 = new XLift();	//upcasting
 		lift1.firstFloor();
 		lift1.secondFloor();
 		lift1.stopTheLift();
