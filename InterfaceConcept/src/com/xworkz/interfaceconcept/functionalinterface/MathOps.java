@@ -1,4 +1,4 @@
-package com.xworkz.interfaceconcept.annonymousclass;
+package com.xworkz.interfaceconcept.functionalinterface;
 
 @FunctionalInterface
 public interface MathOps {
