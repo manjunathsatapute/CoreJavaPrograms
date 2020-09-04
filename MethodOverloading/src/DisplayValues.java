@@ -27,6 +27,7 @@ public class DisplayValues {
 	public static void main(String[] args) {
 
 		DisplayValues disp = new DisplayValues();
+		System.out.println("============");
 		//compile time polymorphism
 		disp.display("Hello world");
 		System.out.println("============");

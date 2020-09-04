@@ -33,4 +33,12 @@ public class Bike {
 	void stop() {
 		System.out.println("Bike stopped");
 	}
+
+	@Override
+	public String toString() {
+		return "Bike [price=" + price + ", brandName=" + brandName + ", cc=" + cc + ", mileage=" + mileage
+				+ ", isItFourStroke=" + isItFourStroke + "]";
+	}
+	
+	
 }

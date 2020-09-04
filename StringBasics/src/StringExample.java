@@ -17,5 +17,13 @@ public class StringExample {
 
 		String smallName = name.toLowerCase();
 		System.out.println("Name in small letters : " + smallName);
+		
+		String s1 = "A";
+		String s2 = "B";
+		String s3 = "C";
+		
+		System.out.println("Comparison of string from lower to higher i.e. A to B gives: "+s1.compareTo(s2));
+		System.out.println("Comparison of string from higher to lower i.e. C to B gives: "+s3.compareTo(s2));
+		System.out.println("Comparison of same string i.e. C to C gives: "+s3.compareTo(s3));
 	}
 }
